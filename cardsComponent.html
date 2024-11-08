@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scriptForCards.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="title-container">
+        <div class="line"></div>
+
+        <div class="title">YAY! It's BOGO</div>
+        <div class="line"></div>
+      </div>
+
+      <div class="section-1-wrapper">
+        <div class="section-1">
+          <div>
+            <input
+              type="radio"
+              name="unit"
+              id="unit1"
+              onclick="toggleSections('section-1-wrapper')"
+            />
+            <label class="label-font" for="unit2">
+              1 unit <span class="offer-label"> 10% Off </span> <br />
+            </label>
+            <div class="label-text">Standard Size</div>
+          </div>
+
+          <div>
+            <div class="price-label">$10.00 USD</div>
+            <div class="previous-price">
+              <div class="price-cut-line"></div>
+              <div>$24.00 USD</div>
+            </div>
+          </div>
+        </div>
+        <div class="size-color-section-container">
+          <div class="size-color-section">
+            <div>
+              <div class="sizeLabelFont">Size</div>
+              <label for="size" style="font-size: 12px; margin-right: 8px">
+                #1
+              </label>
+              <select name="size" id="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            <div>
+              <div class="colorLabelFont">Colour</div>
+              <select name="Colour" id="Colour">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+                <option value="Pink">Pink</option>
+              </select>
+            </div>
+          </div>
+          <div class="size-color-section">
+            <div>
+              <label for="size" style="font-size: 12px; margin-right: 8px">
+                #2
+              </label>
+              <select name="size" id="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            <div>
+              <select name="Colour" id="Colour">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+                <option value="Pink">Pink</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-2-wrapper">
+        <div class="popular-section">
+          <div class="triangle-left"></div>
+          <div class="triangle-right"></div>
+          <div class="rectangle-shape">MOST POPULAR</div>
+        </div>
+        <div class="section-1">
+          <div>
+            <input
+              type="radio"
+              name="unit"
+              id="unit2"
+              onclick="toggleSections('section-2-wrapper')"
+              checked
+            />
+            <label class="label-font" for="unit2">
+              2 unit <span class="offer-label"> 20% Off </span> <br />
+            </label>
+          </div>
+
+          <div>
+            <div class="price-label">$18.00 USD</div>
+            <div class="previous-price">
+              <div class="price-cut-line"></div>
+              <div>$24.00 USD</div>
+            </div>
+          </div>
+        </div>
+        <div class="size-color-section-container">
+          <div class="size-color-section">
+            <div>
+              <div class="sizeLabelFont">Size</div>
+              <label for="size" style="font-size: 12px; margin-right: 8px">
+                #1
+              </label>
+              <select name="size" id="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            <div>
+              <div class="colorLabelFont">Colour</div>
+              <select name="Colour" id="Colour">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+                <option value="Pink">Pink</option>
+              </select>
+            </div>
+          </div>
+          <div class="size-color-section">
+            <div>
+              <label for="size" style="font-size: 12px; margin-right: 8px">
+                #2
+              </label>
+              <select name="size" id="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            <div>
+              <select name="Colour" id="Colour">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+                <option value="Pink">Pink</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-3-wrapper">
+        <div class="section-1">
+          <div>
+            <input
+              type="radio"
+              name="unit"
+              id="unit3"
+              onclick="toggleSections('section-3-wrapper')"
+            />
+            <label class="label-font" for="unit3">
+              3 unit <span class="offer-label"> 30% Off </span> <br />
+            </label>
+          </div>
+          <div>
+            <div class="price-label">$24.00 USD</div>
+            <div class="previous-price">
+              <div class="price-cut-line"></div>
+              <div>$30.00 USD</div>
+            </div>
+          </div>
+        </div>
+        <div class="size-color-section-container">
+          <div class="size-color-section">
+            <div>
+              <div class="sizeLabelFont">Size</div>
+              <label for="size" style="font-size: 12px; margin-right: 8px">
+                #1
+              </label>
+              <select name="size" id="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            <div>
+              <div class="colorLabelFont">Colour</div>
+              <select name="Colour" id="Colour">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+                <option value="Pink">Pink</option>
+              </select>
+            </div>
+          </div>
+          <div class="size-color-section">
+            <div>
+              <label for="size" style="font-size: 12px; margin-right: 8px">
+                #2
+              </label>
+              <select name="size" id="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            <div>
+              <select name="Colour" id="Colour">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+                <option value="Pink">Pink</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="delivery-section">
+        <div class="delivery-text">Free Delivery</div>
+        <div class="delivery-total">Total: $18.00 USD</div>
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+      <div class="powered-by">@Powered by Pumpar</div>
+    </div>
+  </body>
+</html>
